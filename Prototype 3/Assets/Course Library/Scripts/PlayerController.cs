@@ -5,7 +5,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody pRb;
     public float jumpForce;
     public float gravityModifier;
-    public bool isOnGround=true;    
+    public bool isOnGround=true;
+    public bool gameOver = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
